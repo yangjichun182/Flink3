@@ -51,7 +51,7 @@ public class ArrayMax202101122048 {
      */
     public static int getArrayMin(int arr[]) {
         int min = 0;  //定义一个变量接收最小值，初始化为0
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) { // 2021-01-12 22:03 修改，这里需要注意一下，数组的角标是从 0 开始的，那么长度就应该是小于数组的长度，故而这里只能够小于
             if (min > arr[i]) //数组内的值和min进行比较，小于min的值就将该值赋值给min
                 min = arr[i];
         }
