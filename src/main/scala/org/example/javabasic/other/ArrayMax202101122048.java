@@ -1,4 +1,4 @@
-package org.example.javabasic;
+package org.example.javabasic.other;
 
 /**
  * @author : chunji.yang
